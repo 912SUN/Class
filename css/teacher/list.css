@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url("global.css");
+
+/*----------------------文章列表 #artListWrap  #artList----------------------*/
+#artListWrap{
+	width:945px;
+	float:right;
+	border-left:1px dashed #ccc;
+	border-right:1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	}
+#artListWrap h1{
+	height:30px;
+	padding-left: 20px;
+	background: url("../images/teacher/icos.png") 6px -30px no-repeat #1A75BD;
+	border-bottom: 1px solid #CCC;
+	line-height: 30px;
+	font-size:14px;
+	font-weight:lighter;
+	}
+#artList li{
+	height: 40px;
+	padding: 0px 20px;
+	border-bottom: 1px solid #CCC;
+	background: url("../images/icos.png") 10px -47px no-repeat;
+	}
+#artList li a.title{
+	height:14px;
+	margin-top:13px;
+	color:#0A48CA;
+	}
+#artList li span.update{
+	height:14px;
+	margin-top:13px;
+	color:#666;
+	}
+#artList {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    color: #313131;
+    line-height: 25px;
+    min-height: 1000px;
+}
+/*----------------------分页样式 #pagelist----------------------*/
+#pagelist{
+	margin-top:15px;
+	text-align:center;
+	}
+#pagelist li{
+	display:inline-block;
+	_display:inline;
+	_padding:0px 9px;
+	margin-right:6px;
+	}
+#pagelist li.this{
+	padding:6px 9px;
+	_padding:0px 9px;
+	background-color:#1A75BD;
+	_background:none;
+	border-radius:3px;
+	color:#fff;
+	_color:#444;
+	}
+#pagelist li.pageinfo{
+	padding:5px 8px;
+	_padding:0px 9px;
+	background-color:#f9f9f9;
+	_background:none;
+	border:1px solid #ccc;
+	_border:none;
+	border-radius:3px;
+	}
+#pagelist li a{
+	padding:5px 8px;
+	_padding:0px;
+	background-color:#f9f9f9;
+	_background:none;
+	border:1px solid #ccc;
+	_border:none;
+	border-radius:3px;
+	}
+	
+/*----------------------左边栏 #sidebar----------------------*/
+#sidebar{
+	float:left;
+	width:220px;
+	}

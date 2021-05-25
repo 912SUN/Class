@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+html body{
+		background: url(../img/login/bg.jpg) no-repeat center;
+		background-size: 100%;
+}
+span{
+		font-family: "微软雅黑";
+		font-size: 30px;
+}
+#toRegister {
+		float: right;
+}
+#fold{
+	float:right;
+	height:40px;
+	width:100%;
+	background:black;
+	margin-top:-192px;
+	margin-left:20px;
+	
+}
+.lg{
+	float:right;
+}
+.lg>li{
+	float:left;
+	list-style-type:none;/*去掉li标签的小圆点*/
+	margin-left:20px;
+	margin-top:10px;
+	
+}
+.lg>li a{
+	color:white;
+	text-decoration:none;/*去掉a标签的下划线*/
+}
+.lg>li a:hover{
+	font-size:15px;
+	color:red;	
+}
+
+.login-form{
+	width: 387px;
+	height: 300px;
+	margin:0 auto;
+	padding:30px;
+	border: 1px solid rgba(165, 172, 186, .2);
+	border-radius: 5px;
+	background: rgba(92, 96, 104, 0.3);
+	/*盒阴影：水平和垂直偏移量都为0、阴影模糊半径13px、阴影扩展半径3px、黑色透明度50%*/
+	box-shadow: 0 0 10px 3px rgba(92, 96, 104, .4);
+	overflow: hidden;/*隐藏溢出内容*/
+	color: white;
+	margin-top: 15%;
+}
+/* 按钮 */
+.btn{
+    width: 80px;
+    height: 35px;
+    border-radius: 4px;
+    margin:0 auto;
+    padding: 10.5px 21px;
+    border-radius: 6px;
+    background-color:#00B0DC;
+}
+
+
+ 

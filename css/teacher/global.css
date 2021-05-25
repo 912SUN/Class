@@ -1,0 +1,185 @@
+@charset "utf-8";
+/*---------------重设CSS样式--------------------*/
+html{min-height:100%;}
+body{margin:0px;padding:0px;min-height:100%;font:14px Arial,Helvetica,sans-serif;color:#333;}
+h1,h2,h3,h4,h5,h6,p,dl,ol,ul{margin-top:0px;margin-bottom:0px;}
+ul,ol,dd{list-style:none;margin-left:0px;padding-left:0px;}
+input{outline:none;}
+a,img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a.hoverNo:hover,.hoverNo a:hover{text-decoration:none;}
+span.ico{-moz-user-select: none; /*火狐*/-webkit-user-select: none;  /*webkit浏览器*/-ms-user-select: none;   /*IE10*/-khtml-user-select: none; /*早期浏览器*/user-select: none;}
+
+/*---------------字体大小--------------------*/
+.size_12{font-size:12px;}
+.size_13{font-size:13px;}
+.size_14{font-size:14px;}
+.size_15{font-size:15px;}
+.size_16{font-size:16px;}
+.size_18{font-size:18px;}
+.size_20{font-size:20px;}
+.size_22{font-size:22px;}
+.size_24{font-size:24px;}
+/*---------------文字颜色--------------------*/
+.col_fff{color:#fff;}
+/*----------------杂项-------------------*/
+.clear{clear:both;}
+.clearfix{overflow:hidden;}
+.left{display:block;float:left;}
+.right{display:block;float:right;}
+.border_b_none{border-bottom:none;}
+/*----------------文字颜色|背景颜色|文字粗细|字体-------------------*/
+.font_youyuan{font-family:"幼圆",Helvetica,"微软雅黑";}
+.font_yahei{font-family:"微软雅黑","幼圆",Helvetica;}
+.radius_2{border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;}
+.shadow_3{
+	box-shodow:#ddd 3px 3px 3px;
+	}
+
+/*----------------头部样式 #header-------------------*/
+#header{
+	
+	margin:auto;
+	}
+
+
+/*----------------当前位置 #position-------------------*/
+#position{
+	margin-top:50px;
+	margin-left:120px;
+	width:1200px;
+	height:30px;
+	line-height:30px;
+	color:#444;
+	}
+#position a{
+	color:#444;
+	}
+/*----------------主体部分 #main-------------------*/
+#main{
+	width:1200px; 
+	margin:auto;
+	}
+
+/*----------------左边栏 #sidebar-------------------*/
+	
+#sidebar dl.links{
+	margin-bottom:15px;
+	border-bottom:1px dashed #ccc;
+	}
+#sidebar dl.links dt{
+	height:30px;
+	padding-left: 20px;
+	line-height: 30px;
+    background: url("../images/icos.png") 6px -30px no-repeat #1A75BD;
+	border-bottom: 1px dashed #CCC;
+	color: white;
+	font-size:14px;
+	}
+#sidebar dl.links dd{
+	height:30px;
+	padding-left:12px;
+	line-height:30px;
+	border-top: 1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	border-left:1px dashed #ccc;
+	border-right:1px dashed #ccc;
+	}
+#sidebar dl.links dd.borderNone{
+	border-bottom:none;
+	}
+#sidebar dl.links dd a{
+	color:#444;
+	}
+.book{
+	border-top: 1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+}
+.team{
+	padding-left:12px;
+	line-height:30px;
+	border-top: 1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	border-left:1px dashed #ccc;
+	border-right:1px dashed #ccc;
+}
+#sidebar dl.links p{
+	margin:16px 5px;
+	line-height:23px; 
+	font-size:13px;
+	text-indent:2sem;
+}
+/* ---------------------右边栏 #content----------------------*/
+.content {
+    padding-left: 20px;
+}
+.content img {
+	max-width: 350px;
+	max-height: 350px;
+	margin: 15px;
+	border: 10px solid #F7F7F7;
+	box-shadow: -1px 4px 8px #ccc;
+}
+.content a img {
+    margin: 0;
+}
+.content p {
+    font: normal 0.9em/2em "Microsoft Yahei";
+    text-indent: 2em;
+    text-align: justify;
+	margin-bottom: 15px;
+	}
+.content table {
+    width: 95%;
+	margin: 25px;
+}
+.content table tr td {
+    border: 1px solid #8FBDF0;
+    padding: 8px;
+    text-align: center;
+	vertical-align: middle;
+}
+.content table tr td strong {
+    text-align: center;
+    display: block;
+}
+.content dl dt {
+    font-weight: bold;
+}
+table {	border-collapse: collapse;	border-spacing: 0; }
+h3{
+	background-color: #093B94;
+	border: 10px solid #F7F7F7;
+	box-shadow: -1px 4px 8px #ccc;
+	color: #F7F7F7;
+	padding: 10px;
+}
+/*----------------底部 #footerWrap  #footer-------------------*/
+#footerWrap{
+	margin-top:20px;
+	padding-top:20px;
+	}
+#footer{
+	margin:auto;
+	font-size:13px;
+	background-color: #093B94;
+	}
+#footer p{
+	padding:10px;
+	text-align:center;
+	color:#FFFFFF;
+	}
+#footer p span.blank{
+	padding:0px 9px;
+	}
+/* 底部标注 */
+.di{
+	margin-top:20px;
+	width: 1200px;
+	height: 60px;
+	margin:  0 auto;
+	background-color:#428bca;
+	position:relative;
+	position: absolute;
+}
